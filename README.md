@@ -89,7 +89,7 @@ select
 from classes 
   join enrollments using (enrollment_id) 
   join students using(student_id)
-  order by student_id;
+  order by student_id not null;
 ```
 ```
 student_id    email              enrollment_grade       class_name
