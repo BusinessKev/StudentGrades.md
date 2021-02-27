@@ -27,5 +27,9 @@ erDiagram
   
 ## SQL code 
 ```SQL
-
+create table students(
+student_id integer primary key,
+email text not null unique,
+phone_number text not null unique,
+is_released boolean);
 ```
