@@ -53,7 +53,13 @@ foreign key (enrollment_id) references enrollments(enrollment_id)
 ```
 ## Insert Values
 ```SQL
-
+insert into students(email,phone_number,is_released)
+values
+("kevin@mail.com","+1-202-555-0148 ",True),
+("david@gmail.de","+1-202-555-0130",True),
+("Tim@gmail.de","+1-202-555-0164",True),
+("Sylvana-Sarafina-Estefania-Calantha-Loredana-Sarah-Jane-Lavinia-Jeremy-Pascal@mail.de","+1-202-555-0100",True),
+("dielara@kanake.pop","+1-202-555-0154",False);
 ```
 ```SQL
 
