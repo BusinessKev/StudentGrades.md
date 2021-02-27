@@ -44,12 +44,13 @@ foreign key (student_id) references students (student_id)
 ```
 ```SQL
 create table classes(
-class_id integer primary key,
-class_name text not null unique,
-class_hours text not null,
-enrollment_id integer not null,
-foreign key (enrollment_id) references enrollments(enrollment_id)
+  class_id integer primary key, 
+  class_name text not null unique, 
+  class_hours text not null, 
+  enrollment_id integer not null, 
+  foreign key (enrollment_id) references enrollments(enrollment_id)
 );
+
 ```
 ## Insert Values
 ```SQL
