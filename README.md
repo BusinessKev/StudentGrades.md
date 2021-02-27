@@ -98,5 +98,4 @@ student_id    email              enrollment_grade      class_name
 3       	Tim@gmail.de	        3	                Sport
 4	        Jeremy-Pascal@mail.de	3	                Politics
 5	        dielara@kanake.pop	    2               	Acting
-5	        dielara@kanake.pop	    2               	Acting
 ```
