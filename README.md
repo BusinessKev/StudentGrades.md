@@ -36,11 +36,12 @@ is_released boolean);
 ```
 ```SQL
 create table enrollments(
-enrollment_id integer primary key,
-enrollment_grade integer,
-student_id integer not null,
-foreign key (student_id) references students (student_id)
+  enrollment_id integer primary key, 
+  enrollment_grade integer, 
+  student_id integer not null, 
+  foreign key (student_id) references students (student_id)
 );
+
 ```
 ```SQL
 create table classes(
