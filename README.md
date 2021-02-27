@@ -29,10 +29,11 @@ erDiagram
 ## Create Tables
 ```SQL
 create table students(
-student_id integer primary key,
-email text not null unique,
-phone_number text not null unique,
-is_released boolean);
+  student_id integer primary key, email text not null unique, 
+  phone_number text not null unique, 
+  is_released boolean
+);
+
 ```
 ```SQL
 create table enrollments(
