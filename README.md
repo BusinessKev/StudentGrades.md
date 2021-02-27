@@ -74,6 +74,12 @@ values
 (2,5);
 ```
 ```SQL
-
+insert into classes(class_name,class_hours,enrollment_id)
+values
+("Finance","",1),
+("Accounting","",2),
+("Sport","",3),
+("Politics","",4),
+("Acting","",5);
 ```
 
