@@ -51,4 +51,14 @@ enrollment_id integer not null,
 foreign key (enrollment_id) references enrollments(enrollment_id)
 );
 ```
+## Insert Values
+```SQL
+
+```
+```SQL
+
+```
+```SQL
+
+```
 
