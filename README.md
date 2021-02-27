@@ -92,7 +92,7 @@ from classes
   order by student_id;
 ```
 ```
-student_id    email              enrollment_grade      class_name
+student_id    email              enrollment_grade       class_name
 2	        david@gmail.de	        1	                Finance
 2       	david@gmail.de	        6	                Accounting
 3       	Tim@gmail.de	        3	                Sport
