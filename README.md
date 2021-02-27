@@ -61,7 +61,7 @@ values
 ("kevin@mail.com","+1-202-555-0148 ",True),
 ("david@gmail.de","+1-202-555-0130",True),
 ("Tim@gmail.de","+1-202-555-0164",True),
-("Sylvana-Sarafina-Estefania-Calantha-Loredana-Sarah-Jane-Lavinia-Jeremy-Pascal@mail.de","+1-202-555-0100",True),
+("Pascal@mail.de","+1-202-555-0100",True),
 ("dielara@kanake.pop","+1-202-555-0154",False);
 ```
 ```SQL
@@ -88,5 +88,15 @@ select
   student_id, email, enrollment_grade, class_name 
 from classes 
   join enrollments using (enrollment_id) 
-  join students using(student_id);
+  join students using(student_id)
+  order by student_id;
 ```
+```TABLE
+student_id    email              enrollment_grade      class_name
+2	        david@gmail.de	        1	                Finance
+2       	david@gmail.de	        6	                Accounting
+3       	Tim@gmail.de	        3	                Sport
+4	        Jeremy-Pascal@mail.de	3	                Politics
+5	        dielara@kanake.pop	    2               	Acting
+```
+5	        dielara@kanake.pop	    2               	Acting
