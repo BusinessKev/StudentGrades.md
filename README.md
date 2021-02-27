@@ -82,4 +82,11 @@ values
 ("Politics","",4),
 ("Acting","",5);
 ```
-
+## query
+```SQL
+select 
+  student_id, email, enrollment_grade, class_name 
+from classes 
+  join enrollments using (enrollment_id) 
+  join students using(student_id);
+```
