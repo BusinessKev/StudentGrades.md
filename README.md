@@ -1,6 +1,6 @@
 # StudentGrades.md
 Database with Entities Student, Enrollment, Class
-## Er Diagram on 
+## Er Diagram on https://mermaid-js.github.io/mermaid-live-editor/#/
 ```Er
 erDiagram
     
