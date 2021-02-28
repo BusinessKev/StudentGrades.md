@@ -1,3 +1,5 @@
+
+![FileStudentGrades](https://user-images.githubusercontent.com/79744165/109430419-b0851600-7a01-11eb-9353-f3adea01127b.jpg)
 # StudentGrades.md
 Database with Entities Student, Enrollment, Class
 ## Er Diagram on https://mermaid-js.github.io/mermaid-live-editor/#/
