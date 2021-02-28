@@ -46,6 +46,14 @@ create table enrollments(
 ```
 right solution:
 ```SQL
+CREATE TABLE enrollments(
+    student_id INTEGER NOT NULL,
+    class_id INTEGER NOT NULL,
+    enrollment_grade INTEGER NOT NULL,
+FOREIGN KEY(student_id) REFERENCES students(student_id),
+FOREIGN KEY(class_id) REFERENCES classes(calss_id)
+PRIMARY KEY (student_id,class_id)
+);
 ```
 ```SQL
 create table classes(
