@@ -35,6 +35,7 @@ create table students(
 );
 
 ```
+prior wrong solution:
 ```SQL
 create table enrollments(
   enrollment_id integer primary key, 
@@ -42,7 +43,9 @@ create table enrollments(
   student_id integer not null, 
   foreign key (student_id) references students (student_id)
 );
-
+```
+right solution:
+```SQL
 ```
 ```SQL
 create table classes(
