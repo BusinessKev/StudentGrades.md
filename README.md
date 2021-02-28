@@ -76,13 +76,13 @@ values
 ("dielara@kanake.pop","+1-202-555-0154",False);
 ```
 ```SQL
-insert into enrollments(enrollment_grade, student_id) 
+insert into enrollments(student_id,class_id,enrollment_grade) 
 values
-(1,2),
-(6,2),
-(3,3),
-(3,4),
-(2,5);
+(1,2,1),
+(2,3,3),
+(3,2,6),
+(4,1,4),
+(5,5,2);
 ```
 ```SQL
 insert into classes(class_name,class_hours,enrollment_id)
