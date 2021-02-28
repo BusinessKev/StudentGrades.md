@@ -72,13 +72,13 @@ values
 (5,5,2);
 ```
 ```SQL
-insert into classes(class_name,class_hours,enrollment_id)
+insert into classes(class_name,class_hours)
 values
-("Finance","",1),
-("Accounting","",2),
-("Sport","",3),
-("Politics","",4),
-("Acting","",5);
+("Finance","7"),
+("Accounting","5"),
+("Sport","4"),
+("Politics","15"),
+("Acting","2");
 ```
 ## query
 ```SQL
